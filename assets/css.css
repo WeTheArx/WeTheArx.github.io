@@ -21,10 +21,11 @@ html, body {
 }
 a {
     color: rgb(255, 145, 0);;
+    text-decoration: none;
 }
 a:hover {
     animation: glitch 1s infinite;
-    color: #fff;
+    color: #000000;
 }
 a[href="/"] {
   display: inline-block;
@@ -71,11 +72,11 @@ img {
   animation: glitch 1s infinite;
 }
 @keyframes glitch {
-  0%   { text-shadow: 2px 2px red, -2px -2px blue; }
-  25%  { text-shadow: -2px 2px red, 2px -2px blue; }
-  50%  { text-shadow: 2px -2px red, -2px 2px blue; }
-  75%  { text-shadow: -2px -2px red, 2px 2px blue; }
-  100% { text-shadow: 2px 2px red, -2px -2px blue; }
+  0%   { text-shadow: 2px 2px rgb(255, 145, 0), -2px -2px rgb(255, 145, 0); }
+  25%  { text-shadow: -2px 2px rgb(255, 145, 0), 2px -2px rgb(255, 145, 0); }
+  50%  { text-shadow: 2px -2px rgb(255, 145, 0), -2px 2px rgb(255, 145, 0); }
+  75%  { text-shadow: -2px -2px rgb(255, 145, 0), 2px 2px rgb(255, 145, 0); }
+  100% { text-shadow: 2px 2px rgb(255, 145, 0), -2px -2px rgb(255, 145, 0); }
 }
 
 /* HEADINGS & TEXT */
