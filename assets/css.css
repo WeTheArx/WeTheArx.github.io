@@ -11,10 +11,6 @@
 }
 html, body {
   height: 100%;
-  background-image: url('ArxRefuge.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
   color: rgb(255, 145, 0);
 	font-family: 'PxPlus IMB VGA8';
   scroll-behavior: smooth;
@@ -89,6 +85,8 @@ h1 {
 h2 {
   font-size: 1.5rem;
   text-shadow: 0 0 6px rgba(255, 174, 0, 0.4);
+  text-shadow: 0px 0px 10px #000000;
+
 }
 p {
   font-size: 1rem;
